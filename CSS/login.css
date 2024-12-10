@@ -1,0 +1,29 @@
+body{
+    display: flex; /* ativa a flexbox */
+    justify-content: center; /* centraliza horizontamente */
+    align-items: center; /* centraliza verticalmente */
+    min-height: 100vh; /* ocupa a altura total da tela */
+    margin: 0; /* remove margens padrão */
+    background-color: rgb(165, 168, 177); /* cor de fundo */
+    font-family: Arial, Helvetica, sans-serif; /* fonte */
+}
+
+legend{
+    text-align: center; /* centraliza o texto */
+    font-size: 1.2em;
+    font-weight: bold;    
+}
+
+fieldset{
+    width: 300px; /* largura da caixa */
+    height: 100px; /* altura da caixa */   
+    border: 2px solid black; /* espessura e cor da borda */
+    border-radius: 0px; /* arredonda os cantos */
+    padding: 0; /* espaçamento interno */
+    background-color: rgb(194, 185, 185); /* fundo da fieldset */
+    margin: 0; /* espaço externo reduzido */
+}
+
+button{
+    
+}
