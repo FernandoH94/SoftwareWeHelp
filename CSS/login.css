@@ -1,29 +1,39 @@
-body{
-    display: flex; /* ativa a flexbox */
-    justify-content: center; /* centraliza horizontamente */
-    align-items: center; /* centraliza verticalmente */
-    min-height: 100vh; /* ocupa a altura total da tela */
-    margin: 0; /* remove margens padrão */
-    background-color: rgb(165, 168, 177); /* cor de fundo */
-    font-family: Arial, Helvetica, sans-serif; /* fonte */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family: "Oswald", sans-serif;
 }
 
-legend{
-    text-align: center; /* centraliza o texto */
-    font-size: 1.2em;
-    font-weight: bold;    
+section.imagem {
+    background-image: url(/IMG/img_fundo.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100vh;
+
 }
 
-fieldset{
-    width: 300px; /* largura da caixa */
-    height: 100px; /* altura da caixa */   
-    border: 2px solid black; /* espessura e cor da borda */
-    border-radius: 0px; /* arredonda os cantos */
-    padding: 0; /* espaçamento interno */
-    background-color: rgb(194, 185, 185); /* fundo da fieldset */
-    margin: 0; /* espaço externo reduzido */
+section.acess {
+    height: 100vh;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-button{
-    
+form input {    
+    width: 100%;
+}
+
+.btnEntrar {  
+    width: 100%;
+    margin: 15px;
+    border-radius: 5px;
+    border: 0;        
+    text-transform: uppercase;
+
+}
+
+form i {
+    display: flex;
+    justify-content: center;
 }
